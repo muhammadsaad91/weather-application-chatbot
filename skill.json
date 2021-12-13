@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "weater aplication assistant",
+          "examplePhrases": [
+            "Alexa open weather application",
+            "karachi weather",
+            "newyork weather"
+          ],
+          "keywords": [
+            "weather",
+            "application",
+            "weather",
+            "assistant",
+            "weather",
+            "teller"
+          ],
+          "name": "weater aplication",
+          "description": "it tell the weather of all the weld you just tell the name of city",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "first version",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "User:: open weather application:\nAlexa:: Hello! this is Saad Weather assistant. how may I help you today? you can ask me about weather:\nUser:: Karachi weather:\nAlexa:: In Karachi its clear sky with 18.9 degree centigrade. you can expect high at 18.9 degrees and low at 18.9 degrees:",
+      "category": "WEATHER",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:113287512408:function:3c233784-ae07-4f24-9f5c-262caf8a805e:Release_0"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:113287512408:function:3c233784-ae07-4f24-9f5c-262caf8a805e:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:113287512408:function:3c233784-ae07-4f24-9f5c-262caf8a805e:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:113287512408:function:3c233784-ae07-4f24-9f5c-262caf8a805e:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://muhammadsaad91.github.io/weather-app-terms-serves/",
+          "privacyPolicyUrl": "https://muhammadsaad91.github.io/weather-app-privacy-policy/"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
